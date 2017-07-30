@@ -4,7 +4,7 @@
  * send to a Wemos on pin A0. 
  * The Wemos publishes a message to an MQTT instance.
  *  
- * Used the Homie version with fix for ArduinoJSon 5.11.0
+ * Used the Homie 2.0.0 version with fix for ArduinoJSon 5.11.0
  * Wi-Fi and MQTT configuration are set in the Homie config file (data/homie/config.json).
  * 
  * Parameters:
