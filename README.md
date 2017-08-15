@@ -1,8 +1,8 @@
 # Doorbell via Wemos
 
-Doorbell project to determine if the doorbell was pressed.
+Doorbell project to determine if the doorbell was pressed.  
 
-Version 1 was presented at the DomoticaGrunn Meetup #2. Slides can be found on [SpeakerDeck](https://speakerdeck.com/domoticagrunn/domoticagrunn-meetup-number-2).
+Version 1 was presented at the DomoticaGrunn Meetup #2. Slides can be found on [SpeakerDeck](https://speakerdeck.com/domoticagrunn/domoticagrunn-meetup-number-2). Version 2 is the [optocoupler based version](https://github.com/tIsGoud/Doorbell-via-Wemos-and-optocoupler) of this project.
 
 It all started with the question "How to determine someone pressed the doorbell without interfering with the existing doorbell installation?".
 
@@ -57,7 +57,11 @@ The B250D was in a DIP4 form factor, which results in a very clean breadbord des
 
 The new components also had a positive effect on the measured voltage. Instead of the the value between 1 and 2V it now produces results between 2 and 3V. 
 
-## Wemos Software v1.0
+## Hardware v2.0
+
+Version 2 of the hardware is based on an optocoupler, [Doorbell via Wemos and optocoupler](https://github.com/tIsGoud/Doorbell-via-Wemos-and-optocoupler).
+
+## Software v1.0
 
 On the Wemos I use [Homie for ESP8266](https://github.com/marvinroger/homie-esp8266) to:
 - Connect and stay connected to the Wi-Fi
