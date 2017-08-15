@@ -19,7 +19,7 @@ For now I send a message to a Slack-bot to notify me.
 
 ## Hardware v1.0
 
-For the initial setup [Rudi](http://www.rudiniemeijer.nl) a colleague helped me out with the initial design and with some components he had lying around:
+For the initial setup [Rudi](http://www.rudiniemeijer.nl) a colleague helped me out with the design and some components he had lying around:
 - Bridge Rectifier, B80 1500R
 - Voltage Regulator, 3.3V
 
