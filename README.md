@@ -19,7 +19,7 @@ For now I send a message to a Slack-bot to notify me.
 
 ## Hardware v1.0
 
-For the initial setup a [Rudi](http://www.rudiniemeijer.nl) a colleague helped me out with the initial design and with some components he had lying around:
+For the initial setup [Rudi](http://www.rudiniemeijer.nl) a colleague helped me out with the initial design and with some components he had lying around:
 - Bridge Rectifier, B80 1500R
 - Voltage Regulator, 3.3V
 
@@ -29,6 +29,33 @@ The Bridge Rectifier converts AC to DC and the Voltage Regulator brings the volt
 The initial setup worked, the measured voltage on the Wemos was between 1 and 2V. This was the setup presented at the DomoticaGrunn Meetup.
 
 ![Breadbord 1.0](img/breadbord_v1.0.png)
+
+## Hardware v1.1
+
+The first hardware setup was without stabilization. After presenting it I got the advice to add extra components for stabilization.
+
+I still used the same components from v1 but added two capacitors.
+
+![Hardware setup v1.1](img/hardware_setup_v1.1.png)
+
+The resulting voltage remained between 1 and 2V.
+
+## Hardware v1.2
+
+To make this project reproducable for others I decided to get some new components from our local electronics store.
+
+New components:
+- Bridge Rectifier, B250D DIP4
+- Voltage Regulator, TS2950CZ-3.3
+- Capacitor, 1µF
+
+The B250D was in a DIP4 form factor, which results in a very clean breadbord design.
+
+![Hardware setup v1.1](img/hardware_setup_v1.2.png)
+
+![Breadbord 1.2](img/breadbord_v1.2.jpg)
+
+The new components also had a positive effect on the measured voltage. Instead of the the value between 1 and 2V it now produces results between 2 and 3V. 
 
 ## Wemos Software v1.0
 
